@@ -29,6 +29,7 @@
         android:textSize="24dp"
         android:gravity="right"
         local:MvxBind="Text b" />
+
     <TextView
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
@@ -41,6 +42,12 @@
     	android:textSize="24dp"
     	android:gravity="right"
     	local:MvxBind="Text c" />
+
+	 <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click CalculateCommand" />
 	<View
     	android:layout_width="match_parent"
     	android:layout_height="1dp"
@@ -56,8 +63,8 @@
     	android:layout_height="wrap_content"
     	android:textColor="@android:color/holo_blue_dark"
     	android:textSize="24dp"
-   	android:gravity="center"
-    	local:MvxBind="Text Calculate" />
+   	    android:gravity="center"
+    	local:MvxBind="Text X1" />
 <TextView
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
@@ -68,6 +75,6 @@
     	android:layout_height="wrap_content"
     	android:textColor="@android:color/holo_blue_dark"
     	android:textSize="24dp"
-   	android:gravity="center"
-    	local:MvxBind="Text Calculate" />
+   	    android:gravity="center"
+    	local:MvxBind="Text X2" />
 </LinearLayout>

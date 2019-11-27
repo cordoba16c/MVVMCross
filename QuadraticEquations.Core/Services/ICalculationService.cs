@@ -6,6 +6,6 @@ namespace QuadraticEquations.Core.Services
 {
     public interface ICalculationService
     {
-        double CalculateQuadraticEquations(double X1, double X2);
+        double CalculateQuadraticEquations(double a, double b, double c, double X1, double X2);
     }
 }
