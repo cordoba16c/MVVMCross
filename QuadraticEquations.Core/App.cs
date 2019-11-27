@@ -16,7 +16,7 @@ namespace QuadraticEquations.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<TipViewModel>();
+            RegisterAppStart<CalculateViewModel>();
         }
 
     }

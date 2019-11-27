@@ -6,13 +6,13 @@ using System.Text;
 
 namespace QuadraticEquations.Core.ViewModels
 {
-    public class TipViewModel  :  MvxViewModel
+    public class CalculateViewModel  :  MvxViewModel
     {
         private readonly ICalculationService _calculationService;
         private double _X1;
         private double _X2;
 
-        public TipViewModel(ICalculationService calculationService)
+        public CalculateViewModel(ICalculationService calculationService)
         {
             _calculationService = calculationService;
 
